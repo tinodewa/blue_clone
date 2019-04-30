@@ -1,0 +1,18 @@
+.brand-header {
+	padding: 1.6rem 0;
+	position: relative;
+	display: block;
+
+	&__text {
+		animation: header-text 2s ease-in;
+	}
+
+	&__logo-box {
+		animation: logo-animation 2s ease-out;
+	}
+
+	&__logo {
+        // height: 75px;
+        height: 100%;
+	}
+}

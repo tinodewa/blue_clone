@@ -1,0 +1,38 @@
+.hero {
+	position: relative;
+	padding-top: 6.666rem;
+
+	&__decoration {
+		&--left {
+			background-image: url(../img/header-bg-left.svg);
+			background-size: 96rem 22.8rem;
+			background-repeat: no-repeat;
+			width: 96rem;
+			height: 22.8rem;
+			position: absolute;
+			bottom: -19rem;
+			left: calc(50% - 45rem);
+			z-index: -1;
+			animation: hero-left .5s ease-out;
+		}
+
+		&--right {
+			background-image: url(../img/header-bg-right.svg);
+			background-size: 96rem 640px;
+			background-repeat: no-repeat;
+			width: 96rem;
+			height: 42.666rem;
+			position: absolute;
+			margin-top: -30vh;
+			left: calc(50% - 48rem);
+			z-index: -1;
+			animation: hero-right .8s ease-out;
+		}
+	}
+	&__cta {
+        margin-top: 45px;
+		animation: pop-bottom .8s ease-out;
+		animation-delay: 0.5s;
+		animation-fill-mode: backwards;
+	}
+}

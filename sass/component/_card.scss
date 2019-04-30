@@ -1,0 +1,35 @@
+.custom-card {
+	text-align: center;
+	min-height: 320px;
+	border: 1px solid #ececec;
+	border-radius: 3px;
+	box-shadow: 0 0 30px rgba($color-black, .125);
+	&.white {
+		background-color: white;
+		animation: pop-bottom .8s ease-out;
+		animation-delay: 0.3s;
+		animation-fill-mode: backwards;
+	}
+
+	&.black {
+		background-color: black;
+	}
+
+	&__pict {
+		// animation: pop-bottom .8s ease-out;
+	}
+	&__title {
+		font-weight: 700;
+		margin: 20px 0 0 0;
+		// animation: pop-bottom .8s ease-out;
+		animation-delay: 0.2s;
+		animation-fill-mode: backwards;
+	}
+
+	&__paragraph {
+		font-size: 1.125rem;
+		// animation: pop-bottom .8s ease-out;
+		animation-delay: 0.3s;
+		animation-fill-mode: backwards;
+	}
+}

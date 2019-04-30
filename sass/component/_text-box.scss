@@ -1,0 +1,32 @@
+.text-box{
+    max-width: 540px;
+    color: $color-black;
+
+    &__title{
+        font-weight: 700;
+        margin-bottom: 25px;
+        animation: pop-bottom .8s ease-out;
+        animation-delay: 0.2s;
+        animation-fill-mode: backwards;
+
+        &.tabs{
+            margin-top: 40px;
+
+        }
+
+        &.white{
+            color: #ffffff;
+        }
+    }
+
+    &__paragraph{
+        font-size: 1.1rem;
+        animation: pop-bottom .8s ease-out;
+        animation-delay: 0.3s;
+        animation-fill-mode: backwards;
+
+        &:not(:first-child){
+            margin-top: 20px;
+        }
+    }
+}

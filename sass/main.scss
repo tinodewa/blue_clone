@@ -1,0 +1,19 @@
+@import "abstract/animation";
+@import "abstract/variables";
+@import "abstract/mixin";
+
+@import "base/base";
+
+@import "component/button";
+@import "component/card";
+@import "component/text-box";
+
+@import "layout/discover";
+@import "layout/feature";
+@import "layout/header";
+@import "layout/hero";
+@import "layout/partnership";
+@import "layout/testimonials"; 
+@import "layout/pricing";
+@import "layout/faqs";
+@import "layout/floating-modal";

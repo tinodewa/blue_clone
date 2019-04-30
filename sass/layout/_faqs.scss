@@ -1,0 +1,12 @@
+.faqs {
+	&-inner {
+		max-width: 644px;
+        width: 644px;
+        margin: 0 auto;
+
+        &__title{
+            font-weight: 700;
+            margin: 20px 0 32px 0;
+        }
+	}
+}

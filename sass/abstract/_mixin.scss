@@ -1,0 +1,40 @@
+@mixin gradient-row-top {
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        display: block;
+        height: 1px;
+        background: #dee3e9;
+        background: linear-gradient(
+            to right,
+            rgba(222, 227, 233, 0.1) 0,
+            rgba(222, 227, 233, 0.6) 50%,
+            rgba(222, 227, 233, 0.1) 100%
+        );
+    }
+}
+
+@mixin gradient-row-bottom {
+    
+    &::after{
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        display: block;
+        height: 1px;
+        background: #DEE3E9;
+        background: linear-gradient(to right,
+         rgba(222,227,233,0.1) 0, rgba(222,227,233,0.6) 50%, rgba(222,227,233,0.1) 100%);
+    }
+}
+
+@mixin bigger{
+	&:hover{
+		transform: scale(1.1);
+	}
+}
