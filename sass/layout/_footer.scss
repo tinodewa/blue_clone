@@ -1,0 +1,48 @@
+.footer{
+    background-color: #202932;
+
+    &-inner{
+        padding: 70px 0 50px 0;
+    }
+    &-list{
+        display: flex;
+        flex-direction: row-reverse;
+        &__inner{
+            padding: 0 20px;
+
+            &--title{
+                display: none;
+            }
+            &:hover{
+                cursor: pointer;
+            }
+        }
+    }
+
+    &-copyright{
+        color: #889BB0;
+        padding: 20px 0;
+        font-size: 14px;
+    }
+    &-social{
+        color: #889BB0;
+        padding: 20px;
+        font-size: 14px;
+        list-style: none;
+        display: flex;
+        flex-direction: row-reverse;
+
+        &__inner:not(:first-child){
+            padding-right: 35px;
+        }
+
+        &__inner{
+
+        &:hover{
+            cursor: pointer;
+            text-decoration: underline;
+            color: #fff;
+        }
+        }
+    }
+}

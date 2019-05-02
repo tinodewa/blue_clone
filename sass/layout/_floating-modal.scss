@@ -1,7 +1,7 @@
 .floating-modal {
 	position: relative;
-	width: 280px;
-	max-width: 280px;
+	// width: 220px;
+	max-width: 260px;
 	margin: 0 auto;
 	position: fixed;
 	bottom: 48px;
@@ -14,13 +14,45 @@
     color:#617190;
 	&__close {
 		position: absolute;
-		top: 29px;
+		top: 20px;
 		right: 24px;
 		cursor: pointer;
     }
     &__inner{
-        padding-right: 40px;
+        padding-right: 54px;
         margin-bottom: 20px;
-        font-size: 14px;
-    }
+		font-size: 14px;
+
+		&--start{
+			color: #041439;
+			font-weight: 700;
+		}
+		&--last{
+			display: block;
+		}
+	}
+	&__cta{
+		background: #7f6df8;
+		background: linear-gradient(65deg, #6954F7 -25%, #9485F9 100%);
+		color: #fff;
+		font-size: 12px;
+		font-weight: 700;
+		line-height: 16px;
+		text-transform: uppercase;
+		text-decoration: none;
+		padding: 12px 32px;
+		height: 40px;text-align: center;
+		justify-content: center;
+		white-space: nowrap;
+		display: block;
+		border-radius: 3px;
+		transition: all .2s ease;
+
+		&:hover{
+			color: #fff;
+			text-decoration: none;
+			transform: translateY(-2px);
+			box-shadow: 0px 10px 20px rgba($color-black, .225);
+		}
+	}
 }
