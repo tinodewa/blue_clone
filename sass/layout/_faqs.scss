@@ -6,10 +6,12 @@
 		width: 644px;
 		margin: 0 auto;
 
-		@include respond(tab-port){
+		@include respond(tab-port) {
 			width: 495px;
 		}
-
+		@include respond(phone) {
+			width:340px;
+		}
 		&__title {
 			font-weight: 700;
 			margin: 20px 0 32px 0;
@@ -97,19 +99,24 @@
 	&-cta {
 		padding: 90px 0 50px 0;
 		position: relative;
-
+		@include respond(tab-port) {
+			text-align: center;
+			padding: 60px 0 30px 0;
+		}
 		&__text {
 			display: inline;
 		}
 
-	&__btn{
-		@include respond(tab-port){
-			margin-top: 30px;
+		&__btn {
 		}
-	}
 
 		& .col-md:last-child {
 			text-align: right;
+
+			@include respond(tab-port) {
+				text-align: center;
+				margin-top: 20px;
+			}
 		}
 	}
 

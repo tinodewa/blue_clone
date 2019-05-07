@@ -2,6 +2,10 @@
 	position: relative;
 	padding-top: 6.666rem;
 
+	@include respond(tab-port) {
+		text-align: center;
+	}
+
 	&__decoration {
 		&--left {
 			background-image: url(../img/header-bg-left.svg);
@@ -29,12 +33,17 @@
 			animation: hero-right .8s ease-out;
 
 			// @include respond(tab-land){
-			// 	margin-top: 
+			// 	margin-top:
 			// }
 		}
 	}
+	&-text {
+		@include respond(tab-port) {
+			margin: 0 auto;
+		}
+	}
 	&__cta {
-        margin-top: 45px;
+		margin-top: 45px;
 		animation: pop-bottom .8s ease-out;
 		animation-delay: 0.5s;
 		animation-fill-mode: backwards;

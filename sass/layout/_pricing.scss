@@ -49,6 +49,9 @@
 				font-weight: 700;
 			}
 		}
+		@include respond(tab-port){
+			text-align: center;
+		}
 	}
 
 	&-checklist {
