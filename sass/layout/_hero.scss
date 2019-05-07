@@ -20,7 +20,7 @@
 			bottom: -19rem;
 			left: calc(50% - 45rem);
 			z-index: -1;
-			animation: hero-left .5s ease-out;
+			// animation: hero-left .5s ease-out;
 		}
 
 		&--right {
@@ -33,7 +33,7 @@
 			margin-top: -34vh;
 			left: calc(50% - 48rem);
 			z-index: -1;
-			animation: hero-right .8s ease-out;
+			// animation: hero-right .8s ease-out;
 
 			// @include respond(tab-land){
 			// 	margin-top:
@@ -47,8 +47,8 @@
 	}
 	&__cta {
 		margin-top: 45px;
-		animation: pop-bottom .8s ease-out;
-		animation-delay: 0.5s;
-		animation-fill-mode: backwards;
+		// animation: pop-bottom .8s ease-out;
+		// animation-delay: 0.5s;
+		// animation-fill-mode: backwards;
 	}
 }

@@ -31,46 +31,46 @@
 
 .logo {
 	&-1 {
-		animation: pop-partnership 1s;
+		// animation: pop-partnership 1s;
 		padding: 10px;
 		
-		transition: all .2s ease;
+		// transition: all .2s ease;
 		@include bigger;
 	}
 	&-2 {
-		animation: pop-partnership 1s;
-		animation-delay: 0.2s;
-		animation-fill-mode: backwards;
+		// animation: pop-partnership 1s;
+		// animation-delay: 0.2s;
+		// animation-fill-mode: backwards;
 		padding: 10px;
 
-		transition: all .2s ease;
+		// transition: all .2s ease;
 		@include bigger;
 	}
 	&-3 {
-		animation: pop-partnership 1s;
-		animation-delay: 0.3s;
-		animation-fill-mode: backwards;
+		// animation: pop-partnership 1s;
+		// animation-delay: 0.3s;
+		// animation-fill-mode: backwards;
 		padding: 10px;
 
-		transition: all .2s ease;
+		// transition: all .2s ease;
 		@include bigger;
 	}	
 	&-4 {
-		animation: pop-partnership 1s;
-		animation-delay: 0.4s;
-		animation-fill-mode: backwards;
+	// 	animation: pop-partnership 1s;
+	// 	animation-delay: 0.4s;
+	// 	animation-fill-mode: backwards;
 		padding: 10px;
 
-		transition: all .2s ease;
+		// transition: all .2s ease;
 		@include bigger;
 	}
 	&-5 {
-		animation: pop-partnership 1s;
-		animation-delay: 0.5s;
-		animation-fill-mode: backwards;
+		// animation: pop-partnership 1s;
+		// animation-delay: 0.5s;
+		// animation-fill-mode: backwards;
 		padding: 10px;
 
-		transition: all .2s ease;
+		// transition: all .2s ease;
 		@include bigger; 
 	}
 }

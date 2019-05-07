@@ -5,9 +5,9 @@
     &__title{
         font-weight: 700;
         margin-bottom: 25px;
-        animation: pop-bottom .8s ease-out;
-        animation-delay: 0.2s;
-        animation-fill-mode: backwards;
+        // animation: pop-bottom .8s ease-out;
+        // animation-delay: 0.2s;
+        // animation-fill-mode: backwards;
 
         @include respond(phone){
             font-size: 30px;
@@ -24,9 +24,9 @@
 
     &__paragraph{
         font-size: 1.1rem;
-        animation: pop-bottom .8s ease-out;
-        animation-delay: 0.3s;
-        animation-fill-mode: backwards;
+        // animation: pop-bottom .8s ease-out;
+        // animation-delay: 0.3s;
+        // animation-fill-mode: backwards;
 
         &:not(:first-child){
             margin-top: 20px;
