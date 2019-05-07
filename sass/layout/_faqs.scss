@@ -10,6 +10,11 @@
 			margin: 20px 0 32px 0;
 		}
 	}
+
+	.mb-0{
+		display: flex;
+		justify-content: space-between;
+	}
 	&-card {
 		border-top: 1px solid rgba($color-black, .2);
 
@@ -76,7 +81,7 @@
 				transition: all .2s ease;
 			}
 
-			.collapsed & {
+			.collapsed ~ & {
 				cursor: pointer;
 				&::before {
 					transform: rotate(90deg);
@@ -124,13 +129,4 @@
 		background-repeat: no-repeat;
 		z-index: -2;
 	}
-
-	// & .collapse.show ~ &-card__icon{
-	// 	&::before {
-	// 		transform: rotate(-90deg);
-	// 	}
-	// 	&::after {
-	// 		transform: rotate(180deg);
-	// 	}
-	// }
 }

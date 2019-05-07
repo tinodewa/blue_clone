@@ -580,6 +580,9 @@ main {
     .faqs-inner__title {
       font-weight: 700;
       margin: 20px 0 32px 0; }
+  .faqs .mb-0 {
+    display: flex;
+    justify-content: space-between; }
   .faqs-card {
     border-top: 1px solid rgba(17, 17, 17, 0.2); }
     .faqs-card:last-child {
@@ -631,11 +634,11 @@ main {
         top: 13px;
         right: 0;
         transition: all .2s ease; }
-      .collapsed .faqs-card__icon {
+      .collapsed ~ .faqs-card__icon {
         cursor: pointer; }
-        .collapsed .faqs-card__icon::before {
+        .collapsed ~ .faqs-card__icon::before {
           transform: rotate(90deg); }
-        .collapsed .faqs-card__icon::after {
+        .collapsed ~ .faqs-card__icon::after {
           transform: rotate(180deg); }
   .faqs-cta {
     padding: 90px 0 50px 0;
