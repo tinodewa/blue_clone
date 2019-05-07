@@ -6,6 +6,10 @@
 		width: 644px;
 		margin: 0 auto;
 
+		@include respond(tab-port){
+			width: 495px;
+		}
+
 		&__title {
 			font-weight: 700;
 			margin: 20px 0 32px 0;
@@ -97,6 +101,12 @@
 		&__text {
 			display: inline;
 		}
+
+	&__btn{
+		@include respond(tab-port){
+			margin-top: 30px;
+		}
+	}
 
 		& .col-md:last-child {
 			text-align: right;

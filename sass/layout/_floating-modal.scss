@@ -11,7 +11,12 @@
     box-shadow: 0 4px 16px rgba(16,31,59,.16);
     background-color: #fff;
     border-radius: 2px;
-    color:#617190;
+	color:#617190;
+	
+	@include respond(tab-land){
+		right: 50px;
+	}
+
 	&__close {
 		position: absolute;
 		top: 20px;

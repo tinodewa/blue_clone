@@ -33,6 +33,8 @@
 	&-wrap {
 		display: flex;
 		flex-wrap: wrap;
+		justify-content: center;
+
 	}
 	&-inner {
 		color: #889bb0;

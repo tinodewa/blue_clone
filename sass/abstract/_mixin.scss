@@ -1,40 +1,86 @@
 @mixin gradient-row-top {
-    &::before {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        display: block;
-        height: 1px;
-        background: #dee3e9;
-        background: linear-gradient(
-            to right,
-            rgba(222, 227, 233, 0.1) 0,
-            rgba(222, 227, 233, 0.6) 50%,
-            rgba(222, 227, 233, 0.1) 100%
-        );
-    }
+	&::before {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		display: block;
+		height: 1px;
+		background: #dee3e9;
+		background: linear-gradient(
+			to right,
+			rgba(222, 227, 233, 0.1) 0,
+			rgba(222, 227, 233, 0.6) 50%,
+			rgba(222, 227, 233, 0.1) 100%
+		);
+	}
 }
 
 @mixin gradient-row-bottom {
-    
-    &::after{
-        content: '';
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        display: block;
-        height: 1px;
-        background: #DEE3E9;
-        background: linear-gradient(to right,
-         rgba(222,227,233,0.1) 0, rgba(222,227,233,0.6) 50%, rgba(222,227,233,0.1) 100%);
-    }
+	&::after {
+		content: '';
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		display: block;
+		height: 1px;
+		background: #dee3e9;
+		background: linear-gradient(
+			to right,
+			rgba(222, 227, 233, 0.1) 0,
+			rgba(222, 227, 233, 0.6) 50%,
+			rgba(222, 227, 233, 0.1) 100%
+		);
+	}
 }
 
-@mixin bigger{
-	&:hover{
+@mixin bigger {
+	&:hover {
 		transform: scale(1.1);
+	}
+}
+
+// MEDIA QUERIES MANAGER
+
+/*
+0 - 600px       : phone
+600 - 900px     : tablet portrait
+900 - 1200px    : tablet landscape
+[1200 - 1800] is where our normal styles apply
+1800 +          : big desktop
+
+$breakpoint argument choices :
+- phone
+- tab-port
+- tab-land
+- big-desktop
+
+ORDER: Base + typography > General layout + grid > page layout > components
+
+1em = 16px
+*/
+
+@mixin respond($breakpoint) {
+	@if $breakpoint == phone {
+		@media only screen and (max-width: 37.5em) {
+			@content;
+		} //600px
+	}
+	@if $breakpoint == tab-port {
+		@media only screen and (max-width: 56.25em) {
+			@content;
+		} //900px
+	}
+	@if $breakpoint == tab-land {
+		@media only screen and (max-width: 75em) {
+			@content;
+		} //1200px
+	}
+	@if $breakpoint == big-desktop {
+		@media only screen and (min-width: 112.5em) {
+			@content;
+		} //1800px
 	}
 }

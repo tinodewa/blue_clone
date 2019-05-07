@@ -34,6 +34,10 @@
 
         &__inner:not(:first-child){
             padding-right: 35px;
+
+            @include respond(tab-port){
+                padding-right: 30px;
+            }
         }
 
         &__inner{

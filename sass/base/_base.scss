@@ -6,8 +6,8 @@
 }
 body {
 	font-family: 'Oxygen', sans-serif;
-	overflow-x: hidden;
 	font-size: 93.75%;
+
 }
 html {
 	line-height: 30px;
@@ -37,4 +37,7 @@ p {
 }
 html .sr .load-hidden {
 	visibility: hidden;
+}
+main{
+	overflow: hidden;
 }

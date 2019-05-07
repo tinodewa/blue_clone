@@ -23,17 +23,19 @@
 </head>
 
 <body>
-    <header class="brand-header">
-        <div class="container">
-            <div class="brand-header__logo-box">
-                <img src="img/logo.svg" alt="Logo" class="brand-header__logo">
-            </div>
-        </div>
-    </header>
     <main>
+            <header class="brand-header">
+                <div class="container">
+                    <div class="brand-header__logo-box">
+                        <img src="img/logo.svg" alt="Logo" class="brand-header__logo">
+                    </div>
+                </div>
+            </header>
         <section class="hero">
+            <div class="hero-wrap">
             <div class="hero__decoration--left"></div>
             <div class="hero__decoration--right"></div>
+        </div>
             <div class="container">
                 <div class="text-box">
                     <h1 id="invisible" class="text-box__title">Landing page to learn animation and many more</h1>
@@ -102,7 +104,7 @@
         <section class="discover">
             <div class="container">
                 <!-- Nav tabs -->
-                <div class="row justify-content-center">
+                <div class="row flex-sm-column justify-content-lg-center">
                     <div class="discover__controller col-sm-5">
                         <ul class="nav discover--left" role="tablist">
                             <li class="discover-tab">
@@ -256,7 +258,7 @@
                 <div class="pricing-title text-center">
                     <h1 class="text-box__title">Pricing</h1>
                 </div>
-                <div class="row justify-content-center">
+                <div class="row justify-content-center text-sm-center">
                     <div class="pricing-inner">
                         <div class="pricing-inner__card col-md">
                             <div class="pricing-inner__text-box">
@@ -412,14 +414,14 @@
                         </div>
                     </div>
                     <div class="faqs-cta">
-                        <div class="row">
-                            <div class="col-md">
+                        <div class="row justify-content-sm-center">
+                            <div class="col-md text-sm-center">
                                 <h2 class="text-box__title faqs-cta__text">
                                     Still not convinced?
                                 </h2>
                             </div>
-                            <div class="col-md">
-                                <a href="#" class="btn btn-primary btn-shadow">
+                            <div class="col-md text-sm-center">
+                                <a href="#" class="btn btn-primary btn-shadow faqs-cta__btn">
                                     Schedule a live demo
                                 </a>
                             </div>
@@ -446,7 +448,7 @@
         </div>
         <footer class="footer">
             <div class="container">
-                <div class="footer-inner">
+                <div class="footer-inner text-sm-center">
                     <div class="row">
                         <div class="col-md-6">
                             <img src="img/logo.svg" alt="logo">
@@ -455,7 +457,7 @@
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <ul class="footer-list">
+                            <ul class="footer-list justify-content-sm-center">
                                 <li class="footer-list__inner">
                                     <a href="#">
                                         <span class="footer-list__inner--title">Google</span>
@@ -487,7 +489,7 @@
                                     </a>
                                 </li>
                             </ul>
-                            <ul class="footer-social">
+                            <ul class="footer-social footer-list justify-content-sm-center">
                                 <li class="footer-social__inner">Support</li>
                                 <li class="footer-social__inner">FAQ's</li>
                                 <li class="footer-social__inner">About Us</l>

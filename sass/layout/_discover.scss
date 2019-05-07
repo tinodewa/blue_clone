@@ -16,6 +16,13 @@
 		z-index: -1;
 	}
 
+	&__controller{
+		@include respond(tab-port){
+			display: flex;
+			margin: 0 auto;
+			justify-content: center;
+		}
+	}
 	&-tab {
 		box-shadow: 0 10px 30px rgba($color-black, .2);
 		
@@ -65,5 +72,11 @@
 				transition: all .2s ease;
 			}
 		}
+	}
+
+	&__content{
+		display:flex;
+		margin: 0 auto;
+		justify-content: center;
 	}
 }
