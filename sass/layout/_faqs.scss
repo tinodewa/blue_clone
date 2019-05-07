@@ -2,16 +2,9 @@
 	padding-bottom: 40px;
 	position: relative;
 	&-inner {
-		max-width: 644px;
+		max-width: 80vw;
 		width: 644px;
 		margin: 0 auto;
-
-		@include respond(tab-port) {
-			width: 495px;
-		}
-		@include respond(phone) {
-			width:340px;
-		}
 		&__title {
 			font-weight: 700;
 			margin: 20px 0 32px 0;

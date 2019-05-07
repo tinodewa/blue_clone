@@ -46,6 +46,9 @@
 		min-width: 344px;
 		background-color: #fff;
 
+		@include respond(phone){
+			min-width: 300px;
+		}
 		&__pict {
 			margin-right: 12px;
 		}

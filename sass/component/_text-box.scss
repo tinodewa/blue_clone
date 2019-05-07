@@ -9,6 +9,9 @@
         animation-delay: 0.2s;
         animation-fill-mode: backwards;
 
+        @include respond(phone){
+            font-size: 30px;
+        }
         &.tabs{
             margin-top: 40px;
 

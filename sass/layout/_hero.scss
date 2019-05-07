@@ -5,6 +5,9 @@
 	@include respond(tab-port) {
 		text-align: center;
 	}
+	@include respond(phone){
+	padding-top: 3rem;
+	}
 
 	&__decoration {
 		&--left {
