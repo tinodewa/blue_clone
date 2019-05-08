@@ -1,68 +1,68 @@
 // animation
 
 @keyframes logo-animation {
-    0%{
-        opacity: 0;
-    }
-    // 50%{
-    //     opacity: .5;
-    // }
-    100%{
-        opacity: 1;
-    }
+	0% {
+		opacity: 0;
+	}
+	// 50%{
+	//     opacity: .5;
+	// }
+	100% {
+		opacity: 1;
+	}
 }
 
 @keyframes header-text {
-    0%{
-        opacity: 0;
-        transform: scale(2);
-    }
-    100%{
-        opacity: 1;
-        transform: scale(1);
-    }
+	0% {
+		opacity: 0;
+		transform: scale(2);
+	}
+	100% {
+		opacity: 1;
+		transform: scale(1);
+	}
 }
 
 @keyframes hero-right {
-    0%{
-        opacity: 0;
-        transform: translateY(-3.333rem);
-    }
-    100%{
-        opacity: 1;
-        transform: translate(0,0);
-    }
+	0% {
+		opacity: 0;
+		transform: translateY(-3.333rem);
+	}
+	100% {
+		opacity: 1;
+		transform: translate(0, 0);
+	}
 }
 
 @keyframes hero-left {
-    0%{
-        opacity: 0;
-        transform: translateY(1.666rem);
-    }
-    100%{
-        opacity: 1;
-        transform: translate(0,0);
-    }
+	0% {
+		opacity: 0;
+		transform: translateY(1.666rem);
+	}
+	100% {
+		opacity: 1;
+		transform: translate(0, 0);
+	}
 }
 
 @keyframes pop-bottom {
-    0%{
-        opacity: 0;
-        transform: translateY(2rem);
-    }
-    100%{
-        opacity: 1;
-        transform: translate(0,0);
-    }
+	0% {
+		opacity: 0;
+		transform: translateY(2rem);
+	}
+	100% {
+		opacity: 1;
+		transform: translate(0, 0);
+	}
 }
 
 @keyframes pop-partnership {
-    0%{
-        opacity: 0;
+	0% {
+		opacity: 0;
 		transform: rotateY(50deg);
-    }
-    100%{
-        opacity: 1;
-        transform: rotate(0deg);
-    }
+	}
+	100% {
+		opacity: 1;
+		transform: rotate(0deg);
+	}
 }

@@ -4,14 +4,13 @@
 	padding: $space-top 0 $space-bottom 0;
 	position: relative;
 
-
-	&--left{
-		@include respond(phone){
+	&--left {
+		@include respond(phone) {
 			justify-content: center;
 		}
 	}
-	&--right{
-		@include respond(phone){
+	&--right {
+		@include respond(phone) {
 			text-align: center;
 		}
 	}
@@ -46,7 +45,7 @@
 		min-width: 344px;
 		background-color: #fff;
 
-		@include respond(phone){
+		@include respond(phone) {
 			min-width: 300px;
 		}
 		&__pict {
@@ -75,6 +74,7 @@
 				right: 0;
 				bottom: 0;
 				border: 2px solid rgb(156, 235, 255);
+				transition: all .2s ease;
 			}
 		}
 

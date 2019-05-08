@@ -1,63 +1,62 @@
-.footer{
-    background-color: #202932;
+.footer {
+	background-color: #202932;
 
-    &-inner{
-        padding: 70px 0 50px 0;
+	&-inner {
+		padding: 70px 0 50px 0;
 
-        @include respond(tab-port){
-         text-align: center;
-        }
-    }
-    &-list{
-        display: flex;
-        flex-direction: row-reverse;
+		@include respond(tab-port) {
+			text-align: center;
+		}
+	}
+	&-list {
+		display: flex;
+		flex-direction: row-reverse;
 
-        @include respond(tab-port){
-            justify-content: center;
-        }
-        &__inner{
-            padding: 0 20px;
+		@include respond(tab-port) {
+			justify-content: center;
+		}
+		&__inner {
+			padding: 0 20px;
 
-            &--title{
-                display: none;
-            }
-            &:hover{
-                cursor: pointer;
-            }
-        }
-    }
+			&--title {
+				display: none;
+			}
+			&:hover {
+				cursor: pointer;
+			}
+		}
+	}
 
-    &-copyright{
-        color: #889BB0;
-        padding: 20px 0;
-        font-size: 14px;
-    }
-    &-social{
-        color: #889BB0;
-        padding: 20px;
-        font-size: 14px;
-        list-style: none;
-        display: flex;
-        flex-direction: row-reverse;
+	&-copyright {
+		color: #889bb0;
+		padding: 20px 0;
+		font-size: 14px;
+	}
+	&-social {
+		color: #889bb0;
+		padding: 20px;
+		font-size: 14px;
+		list-style: none;
+		display: flex;
+		flex-direction: row-reverse;
 
-        @include respond(tab-port){
-            justify-content: center;
-        }
-        &__inner:not(:first-child){
-            margin-right: 35px;
+		@include respond(tab-port) {
+			justify-content: center;
+		}
+		&__inner:not(:first-child) {
+			margin-right: 35px;
 
-            @include respond(tab-land){
-                margin-right: 30px;
-            }
-        }
+			@include respond(tab-land) {
+				margin-right: 30px;
+			}
+		}
 
-        &__inner{
-
-        &:hover{
-            cursor: pointer;
-            text-decoration: underline;
-            color: #fff;
-        }
-        }
-    }
+		&__inner {
+			&:hover {
+				cursor: pointer;
+				text-decoration: underline;
+				color: #fff;
+			}
+		}
+	}
 }

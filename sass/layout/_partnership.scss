@@ -6,7 +6,7 @@
 		position: relative;
 		&__logo-box {
 			list-style-type: none;
-			padding: 20px 0;
+			padding: 2rem 0;
 			border: 1px solid linear-gradient(to right, red, blue);
 		}
 
@@ -14,63 +14,39 @@
 			display: inline;
 
 			&:not(:last-child) {
-				margin-right: 20px;
+				margin-right: 2rem;
 
-				@include respond(phone){
+				@include respond(phone) {
 					margin-right: 0;
 				}
 			}
-			@include respond(phone){
-			display: block;
+			@include respond(phone) {
+				display: block;
 			}
 		}
-
 		@include gradient-row-top;
 	}
 }
 
 .logo {
 	&-1 {
-		// animation: pop-partnership 1s;
-		padding: 10px;
-		
-		// transition: all .2s ease;
+		padding: 1rem;
 		@include bigger;
 	}
 	&-2 {
-		// animation: pop-partnership 1s;
-		// animation-delay: 0.2s;
-		// animation-fill-mode: backwards;
-		padding: 10px;
-
-		// transition: all .2s ease;
+		padding: 1rem;
 		@include bigger;
 	}
 	&-3 {
-		// animation: pop-partnership 1s;
-		// animation-delay: 0.3s;
-		// animation-fill-mode: backwards;
-		padding: 10px;
-
-		// transition: all .2s ease;
+		padding: 1rem;
 		@include bigger;
-	}	
+	}
 	&-4 {
-	// 	animation: pop-partnership 1s;
-	// 	animation-delay: 0.4s;
-	// 	animation-fill-mode: backwards;
-		padding: 10px;
-
-		// transition: all .2s ease;
+		padding: 1rem;
 		@include bigger;
 	}
 	&-5 {
-		// animation: pop-partnership 1s;
-		// animation-delay: 0.5s;
-		// animation-fill-mode: backwards;
-		padding: 10px;
-
-		// transition: all .2s ease;
-		@include bigger; 
+		padding: 1rem;
+		@include bigger;
 	}
 }

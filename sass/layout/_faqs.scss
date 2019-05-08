@@ -11,7 +11,7 @@
 		}
 	}
 
-	.mb-0{
+	.mb-0 {
 		display: flex;
 		justify-content: space-between;
 	}
@@ -67,7 +67,6 @@
 				background-color: #3525d3;
 				top: 13px;
 				right: 0;
-				// transform: rotate(90deg);
 				transition: all .2s ease;
 			}
 			&::after {
@@ -104,10 +103,6 @@
 		&__text {
 			display: inline;
 		}
-
-		&__btn {
-		}
-
 		& .col-md:last-child {
 			text-align: right;
 

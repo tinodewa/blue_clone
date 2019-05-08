@@ -34,7 +34,6 @@
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
-
 	}
 	&-inner {
 		color: #889bb0;
@@ -47,7 +46,7 @@
 	&-card {
 		width: 368px;
 		max-width: 368px;
-		padding: 12px;
+		padding: 1.2rem;
 		transition: all .2s ease;
 		&__paragraph {
 			position: relative;

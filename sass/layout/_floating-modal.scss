@@ -7,17 +7,17 @@
 	bottom: 48px;
 	right: 48px;
 	padding: 24px;
-    z-index: 9999;
-    box-shadow: 0 4px 16px rgba(16,31,59,.16);
-    background-color: #fff;
-    border-radius: 2px;
-	color:#617190;
-	
-	@include respond(tab-land){
+	z-index: 9999;
+	box-shadow: 0 .40px 16px rgba(16, 31, 59, .16);
+	background-color: #fff;
+	border-radius: 2px;
+	color: #617190;
+
+	@include respond(tab-land) {
 		right: 50px;
 	}
 
-	@include respond(phone){
+	@include respond(phone) {
 		bottom: 0;
 		right: 0;
 		max-width: 100vw;
@@ -29,23 +29,23 @@
 		top: 20px;
 		right: 24px;
 		cursor: pointer;
-    }
-    &__inner{
-        padding-right: 54px;
-        margin-bottom: 20px;
+	}
+	&__inner {
+		padding-right: 54px;
+		margin-bottom: 20px;
 		font-size: 14px;
 
-		&--start{
+		&--start {
 			color: #041439;
 			font-weight: 700;
 		}
-		&--last{
+		&--last {
 			display: block;
 		}
 	}
-	&__cta{
+	&__cta {
 		background: #7f6df8;
-		background: linear-gradient(65deg, #6954F7 -25%, #9485F9 100%);
+		background: linear-gradient(65deg, #6954f7 -25%, #9485f9 100%);
 		color: #fff;
 		font-size: 12px;
 		font-weight: 700;
@@ -53,18 +53,19 @@
 		text-transform: uppercase;
 		text-decoration: none;
 		padding: 12px 32px;
-		height: 40px;text-align: center;
+		height: 40px;
+		text-align: center;
 		justify-content: center;
 		white-space: nowrap;
 		display: block;
-		border-radius: 3px;
+		border-radius: .3px;
 		transition: all .2s ease;
 
-		&:hover{
+		&:hover {
 			color: #fff;
 			text-decoration: none;
 			transform: translateY(-2px);
-			box-shadow: 0px 10px 20px rgba($color-black, .225);
+			box-shadow: 0rem 1rem 2rem rgba($color-black, .225);
 		}
 	}
 }
