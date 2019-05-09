@@ -20,3 +20,11 @@
 		box-shadow: 0rem 10px 30px rgba($color-black, .2);
 	}
 }
+
+.btn-primary{
+	border-color: transparent;
+
+	&:hover{
+		border-color: transparent;
+	}
+}

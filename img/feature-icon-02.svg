@@ -1,1 +1,44 @@
-<svg width="128" height="72" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><linearGradient x1="49.078%" y1="100%" x2="0%" y2="7.585%" id="b"><stop stop-color="#006DCC" offset="0%"/><stop stop-color="#338BF8" offset="39.97%"/><stop stop-color="#23FAD2" offset="100%"/></linearGradient><circle id="a" cx="36" cy="36" r="36"/><linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="f"><stop stop-color="#EEE" offset="0%"/><stop stop-color="#C7E5FF" offset="100%"/></linearGradient><path id="e" d="M10 18l-32 16 32 16 32-16z"/><filter x="-40.6%" y="-68.8%" width="181.2%" height="262.5%" filterUnits="objectBoundingBox" id="d"><feOffset dy="4" in="SourceAlpha" result="shadowOffsetOuter1"/><feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"/><feColorMatrix values="0 0 0 0 0.207843137 0 0 0 0 0.145098039 0 0 0 0 0.82745098 0 0 0 0.16 0" in="shadowBlurOuter1"/></filter><linearGradient x1="0%" y1="0%" x2="50%" y2="100%" id="g"><stop stop-color="#EEE" offset="0%"/><stop stop-color="#C7E5FF" stop-opacity="0" offset="100%"/></linearGradient><path id="i" d="M36 0L0 18l36 18 36-18z"/><filter x="-36.1%" y="-61.1%" width="172.2%" height="244.4%" filterUnits="objectBoundingBox" id="h"><feOffset dy="4" in="SourceAlpha" result="shadowOffsetOuter1"/><feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"/><feColorMatrix values="0 0 0 0 0.207843137 0 0 0 0 0.145098039 0 0 0 0 0.82745098 0 0 0 0.16 0" in="shadowBlurOuter1"/></filter></defs><g fill="none" fill-rule="evenodd"><g transform="translate(28)"><mask id="c" fill="#fff"><use xlink:href="#a"/></mask><use fill="url(#b)" xlink:href="#a"/><g opacity=".24" mask="url(#c)"><use fill="#000" filter="url(#d)" xlink:href="#e"/><use fill="url(#f)" xlink:href="#e"/></g></g><path fill="url(#g)" d="M33 28L11 39l22 11 22-11z" transform="translate(43 12)"/><g transform="translate(43 12)"><use fill="#000" filter="url(#h)" xlink:href="#i"/><use fill="url(#f)" xlink:href="#i"/></g></g></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 109 72" style="enable-background:new 0 0 109 72;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#a-2_1_);}
+	.st1{opacity:0.24;}
+	.st2{fill:url(#e-2_1_);}
+	.st3{fill:url(#SVGID_1_);}
+	.st4{fill:url(#i-2_1_);}
+</style>
+<title>feature-icon-02</title>
+<linearGradient id="a-2_1_" gradientUnits="userSpaceOnUse" x1="-828.27" y1="7.25" x2="-827.2278" y2="7.25" gradientTransform="matrix(72 0 0 72 59662 -486)">
+	<stop  offset="0" style="stop-color:#004E7F"/>
+	<stop  offset="1" style="stop-color:#B32C39"/>
+</linearGradient>
+<circle id="a-2" class="st0" cx="58" cy="36" r="36"/>
+<g>
+	<g class="st1">
+		<g>
+			<path id="e" d="M32,18L0,34l32,16l32-16L32,18z"/>
+		</g>
+		
+			<linearGradient id="e-2_1_" gradientUnits="userSpaceOnUse" x1="-826.375" y1="15.1837" x2="-826.375" y2="16.1837" gradientTransform="matrix(64 0 0 32 52920 -468)">
+			<stop  offset="0" style="stop-color:#EEEEEE"/>
+			<stop  offset="1" style="stop-color:#C7E5FF"/>
+		</linearGradient>
+		<path id="e-2" class="st2" d="M32,18L0,34l32,16l32-16L32,18z"/>
+	</g>
+</g>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-820.7076" y1="21.9938" x2="-820.2076" y2="22.9938" gradientTransform="matrix(44 0 0 22 36168 -446)">
+	<stop  offset="0" style="stop-color:#EEEEEE"/>
+	<stop  offset="1" style="stop-color:#C7E5FF;stop-opacity:0"/>
+</linearGradient>
+<path class="st3" d="M70,40L48,51l22,11l22-11L70,40z"/>
+<g>
+	<path id="i" d="M73,12L37,30l36,18l36-18L73,12z"/>
+</g>
+<linearGradient id="i-2_1_" gradientUnits="userSpaceOnUse" x1="-827.8333" y1="13.5" x2="-827.8333" y2="14.5" gradientTransform="matrix(72 0 0 36 59677 -474)">
+	<stop  offset="0" style="stop-color:#EEEEEE"/>
+	<stop  offset="1" style="stop-color:#C7E5FF"/>
+</linearGradient>
+<path id="i-2" class="st4" d="M73,12L37,30l36,18l36-18L73,12z"/>
+</svg>

@@ -1,1 +1,17 @@
-<svg width="56" height="56" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient x1="0%" y1="7.585%" y2="100%" id="a"><stop stop-color="#C3FFF4" offset="0%"/><stop stop-color="#C7E5FF" offset="100%"/></linearGradient><linearGradient x1="100%" y1="100%" x2="0%" y2="7.585%" id="b"><stop stop-color="#006DCC" offset="0%"/><stop stop-color="#33A0FF" offset="100%"/></linearGradient></defs><g fill="none" fill-rule="evenodd"><path fill="url(#a)" d="M0 0h56v56H0z"/><path d="M1 0h7v8H0V1a1 1 0 0 1 1-1zm7 8h8v8H8V8zm8-8h7a1 1 0 0 1 1 1v7h-8V0zM0 16h8v8H1a1 1 0 0 1-1-1v-7zm16 0h8v7a1 1 0 0 1-1 1h-7v-8z" transform="translate(16 16)" fill="url(#b)"/></g></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 56 56" style="enable-background:new 0 0 56 56;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{fill:url(#SVGID_1_);}
+</style>
+<title>tabs-icon-02</title>
+<path class="st0" d="M0,0h56v56H0V0z"/>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="16" y1="30" x2="40" y2="30" gradientTransform="matrix(1 0 0 -1 0 58)">
+	<stop  offset="0" style="stop-color:#004E7F"/>
+	<stop  offset="1" style="stop-color:#A32F3F"/>
+</linearGradient>
+<path class="st1" d="M17,16h7v8h-8v-7C16,16.4,16.4,16,17,16z M24,24h8v8h-8V24z M32,16h7c0.6,0,1,0.4,1,1v7h-8V16z M16,32h8v8h-7
+	c-0.6,0-1-0.4-1-1V32z M32,32h8v7c0,0.6-0.4,1-1,1h-7V32z"/>
+</svg>
